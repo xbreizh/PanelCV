@@ -2716,9 +2716,10 @@ input[type="button"].btn-block {
 .glyphicon-hdd:before {
     content: "\e121"
 }
-.glyphicon-bullhorn:before {
+.glyphicon-spinner:before {
     content: "\e122"
 }
+
 .glyphicon-bell:before {
     content: "\e123"
 }
