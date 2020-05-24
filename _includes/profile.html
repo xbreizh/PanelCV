@@ -8,7 +8,7 @@
  		
         <!--About me-->
         <div class="title_content">
-            <div class="text_content">xavier lamourec</div>
+            <div class="text_content">{{ site.yourname }}</div>
             <div class="clear"></div>
         </div>
 
@@ -17,35 +17,35 @@
             <li>
                 <i class="glyphicon glyphicon-user"></i>
                 <label>Name</label>
-                <span class="value">Xavier Lamourec</span>
+                <span class="value">{{ site.yourname }}</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-calendar"></i>
                 <label>Date of birth</label>
-                <span class="value">December 05, 1983</span>
+                <span class="value">{{ site.dateOfBirth }}</span>
                 <div class="clear"></div>
             </li>
 
             <li> 
                 <i class="glyphicon glyphicon-map-marker"></i>
                 <label>Adress</label>
-                <span class="value">Dundalk , Ireland</span>
+                <span class="value">{{ site.address }}</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-envelope"></i>
                 <label>Email</label>
-                <span class="value">xavier.lamourec@gmail.com</span>
+                <span class="value">{{ site.email }}</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-phone"></i>
                 <label>Phone</label>
-                <span class="value">+353 83-88-46-758</span>
+                <span class="value">{{ site.phoneNumber }}</span>
                 <div class="clear"></div>
             </li>
 
@@ -66,7 +66,7 @@
         -->
          <p style="margin-bottom:20px">
             <i class="fa fa-quote-left"></i>       
-            I am a Team player always striving to develop personally and professionally by accepting every new challenge, networking with other industry professionals and consistently placing client solutions, satisfaction and service at the forefront of operations. 
+            {{ site.quote-left }}
 
         </p>
 
